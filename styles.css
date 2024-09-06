@@ -26,6 +26,8 @@ p {
     white-space: pre-line; /* این تنظیم اینترها را به خط جدید منتقل می‌کند */
     font-size: 18px;
     text-align: justify; /* تراز کردن متن‌ها از چپ و راست */
+    text-justify: inter-word; /* تنظیم تراز به‌طور بهتر بین کلمات */
+    hyphens: auto; /* اجازه دادن به شکست خطوط در مکان‌های مناسب */
 }
 
 .logos img {
