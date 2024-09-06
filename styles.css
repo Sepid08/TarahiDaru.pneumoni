@@ -95,6 +95,15 @@ p {
     margin-bottom: 15px; /* فاصله بین پاراگراف‌ها */
 }
 
+.vertical-layout .card-content {
+    flex-direction: column; /* آیتم‌ها را به صورت عمودی نمایش بده */
+}
+
+.vertical-layout .card-content img {
+    margin-bottom: 15px; /* تنظیم فاصله برای تصویر */
+    margin-left: 0; /* حذف فاصله سمت چپ */
+}
+
 .reverse img {
     margin-right: 20px;
     margin-left: 0;
