@@ -37,6 +37,7 @@ h1 {
     height: auto; /* حفظ نسبت تصویر */
     max-width: 100%; /* محدود کردن عرض تصویر به عرض صفحه */
     max-height: none; /* حذف محدودیت ارتفاع */
+    border-radius: 15px;
 }
 
 .hero h2, .hero p {
