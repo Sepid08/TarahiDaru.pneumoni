@@ -90,6 +90,11 @@ p {
     margin-left: 20px;
 }
 
+.card-content p {
+    display: block; /* اطمینان از بلوکی بودن پاراگراف */
+    margin-bottom: 15px; /* فاصله بین پاراگراف‌ها */
+}
+
 .reverse img {
     margin-right: 20px;
     margin-left: 0;
