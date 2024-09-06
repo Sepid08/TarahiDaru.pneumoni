@@ -50,6 +50,10 @@ h1 {
     border-radius: 20px;
 }
 
+.hero p {
+    font-size: 24px;
+}
+
 .article-info h2 {
     color: #593A2F;
 }
