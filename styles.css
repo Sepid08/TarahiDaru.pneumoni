@@ -25,6 +25,7 @@ h1 {
 p {
     white-space: pre-line; /* این تنظیم اینترها را به خط جدید منتقل می‌کند */
     font-size: 18px;
+    text-align: justify; /* تراز کردن متن‌ها از چپ و راست */
 }
 
 .logos img {
@@ -92,6 +93,7 @@ p {
 .card-content p {
     display: block; /* اطمینان از بلوکی بودن پاراگراف */
     margin-bottom: 15px; /* فاصله بین پاراگراف‌ها */
+    text-align: justify; /* متن را تراز کنید تا در خط شروع و پایان یکسان باشد */
 }
 
 .vertical-layout .card-content {
@@ -151,7 +153,7 @@ header, .hero, .content {
 @media (max-width: 768px) {
     .card-content {
         flex-direction: column;
-        text-align: center;
+        text-align: right; /* راست‌چین باقی ماندن متن‌ها */
     }
     .card-content img {
         margin: 0 auto 20px;
