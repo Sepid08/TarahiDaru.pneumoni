@@ -44,7 +44,7 @@ h1 {
 .hero h2, .hero p {
     font-weight: bold; /* متن‌ها بولد شوند */
     font-size: 2em; /* افزایش اندازه متن */
-    color: #fff; /* رنگ متن سفید */
+    color: black; /* رنگ متن سفید */
     text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* ایجاد افکت glow */
 }
 
