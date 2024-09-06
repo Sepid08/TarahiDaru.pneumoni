@@ -33,9 +33,17 @@ h1 {
 }
 
 .hero-img {
-    width: 100%;
-    height: auto;
-    max-height: 400px;
+    width: auto; /* نمایش تصویر با سایز اصلی */
+    height: auto; /* حفظ نسبت تصویر */
+    max-width: 100%; /* محدود کردن عرض تصویر به عرض صفحه */
+    max-height: none; /* حذف محدودیت ارتفاع */
+}
+
+.hero h2, .hero p {
+    font-weight: bold; /* متن‌ها بولد شوند */
+    font-size: 2em; /* افزایش اندازه متن */
+    color: #fff; /* رنگ متن سفید */
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.8); /* ایجاد افکت glow */
 }
 
 .article-info h2 {
@@ -49,7 +57,8 @@ h1 {
 }
 
 .card {
-    background-color: rgba(255, 255, 255, 0.8); /* پس زمینه مات */
+    background-color: rgba(255, 255, 255, 0.2); /* رنگ کمرنگ و شفاف */
+    backdrop-filter: blur(10px); /* افکت مات (blur) */
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 15px;
