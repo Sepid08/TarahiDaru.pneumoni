@@ -23,6 +23,11 @@ h1 {
     font-size: 36px;
 }
 
+p {
+    white-space: pre-line; /* این تنظیم اینترها را به خط جدید منتقل می‌کند */
+    font-size: 18px;
+}
+
 .logos img {
     width: 100px;
     margin: 0 10px;
